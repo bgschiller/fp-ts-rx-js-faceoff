@@ -1,1 +1,17 @@
-{"devDependencies":{"@types/core-js":"^2.5.8","fp-ts":"^2.16.6","typescript":"^5.4.5","vitest":"^1.6.0","zod":"^3.23.8"},"dependencies":{"core-js":"^3.37.1"}}
+{
+  "devDependencies": {
+    "@types/core-js": "^2.5.8",
+    "msw": "^2.3.1",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "io-ts": "^2.2.21",
+    "zod": "^3.23.8",
+    "fp-ts": "^2.16.6"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}
